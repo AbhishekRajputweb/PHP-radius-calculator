@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #582f0e;
+}
+
+.container{
+    flex: 0 0 50%;
+    min-width: 50%;
+    /* border: 1px solid; */
+    padding: 15px;
+    display: flex;
+    background-color: #7f4f24;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.container .text-box{
+
+    flex: 0 0 50%;
+    min-width: 50%;
+    /* border: 1px solid; */
+    height: 270px;
+    position: relative;
+    top: 90px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.container .text-box .title{
+    width: 100%;
+    border-left: 5px solid #000;
+}
+
+.container .text-box .title h2{
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 10px;
+    line-height: 40px;
+    color: #000;
+}
+.container .text-box p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #000;
+    /* background-color: red; */
+    
+}
+
+.container .calculation{
+    flex: 0 0 50%;
+    min-width: 50%;
+    border-left: 1px solid #000;
+    margin-left: 100px;
+    /* display: flex;
+    justify-content: center;  */
+}
+
+.container .calculation .inputs{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .calculation .inputs input{
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #7f4f24;
+    color: #000;
+    border-bottom: 2px solid #000;
+
+}
+
+.container .calculation .sec{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .calculation .options-calculation{
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #7f4f24;
+    color: #000;
+    /* border: 1px solid black; */
+}
+.container .calculation .btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .calculation .btn input{
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 15px 35px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: #582f0e;
+    color: #000;
+
+    
+}
+
+.container .calculation .btn input:hover{
+    transform: scale(1.05);
+}
+
+
